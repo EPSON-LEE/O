@@ -15,4 +15,14 @@ tags: [leetcode]
 - 数组类题目遇到针对某点旋转时 还需使用二分法进行排序
 例如：leetcode 35
 
+- 优先队列
 
+例如：leetcode 23
+
+- 分治算法
+
+例如：leetcode 23、21
+
+- 最小堆
+
+例如：leetcode 23
