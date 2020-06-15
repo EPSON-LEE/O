@@ -4,3 +4,5 @@
 # npm install -g hexo-cli
 # 安装 package.json 中的依赖
 npm install -no-bin-links --force
+
+npm rebuild node-sass --no-bin-links
