@@ -1,5 +1,7 @@
 # travis_env_init.sh
+# INSTALL GLOBAL NPM PACKAGES
 npm config set unsafe-perm true
+# clean cache
 npm cache clean
 # 全局安装 Hexo
 npm install -g hexo
