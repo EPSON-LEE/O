@@ -9,7 +9,7 @@ branches: # 指定要构建的分支
   - hexo
 
 before_install:
-- npm install -g hexo-cli
+- npm install -g -no-bin-links hexo-cli --force
 
 # Start: Build Lifecycle
 install: # 在安装项目环境阶段需要运行的命令，一条一行，类似的还有 before_install
