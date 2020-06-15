@@ -10,7 +10,7 @@ branches: # 指定要构建的分支
 
 before_install:
 - npm install -g -no-bin-links hexo-cli --force
-- npm install -g
+- npm install -g -no-bin-links hexo --force
   
 
 # Start: Build Lifecycle
