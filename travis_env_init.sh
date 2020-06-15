@@ -6,5 +6,6 @@ npm install -g hexo
 npm install -g hexo-cli
 # 安装 package.json 中的依赖
 npm uninstall --save node-sass
+npm install --save node-sass
 npm rebuild node-sass
 npm install --force
