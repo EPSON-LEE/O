@@ -50,3 +50,6 @@ udo vim /etc/hosts
 ### 安装 nvm
 
 我们的前端业务项目依赖不同的 Node 版本，为了以后的开发体验建议直接安装 nvm。 [Mac OS 下安装 nvm](https://wild-flame.github.io/guides/docs/mac-os-x-setup-guide/nodejs)
+
+
+
