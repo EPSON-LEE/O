@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+<head>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
+<title>
+    标签: leetcode - O
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.5/outdatedbrowser.min.css">
+
+
+
+        
+            <meta name="description" content="">
+            
+
+                
+
+                        
+
+                                    
+
+                                            
+
+                                                    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ovo|Source+Code+Pro">
+                                                    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+
+                                                    
+                                                        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.8/css/lightgallery.min.css">
+                                                        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.6.5/css/justifiedGallery.min.css">
+                                                        
+
+                                                            <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+
+                                                            
+<link rel="stylesheet" href="/o/css/style.css">
+
+
+                                                                <script defer src="//use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+                                                                
+                                                                    
+                                                                        
+                                                                            
+                                                                        
+                                                                            
+                                                                        
+                                                                            
+                                                                        
+                                                                            
+                                                                        
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-152053462-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-152053462-1');
+</script>
+
+
+                                                                            
+                                                                                
+<meta name="generator" content="Hexo 4.2.1"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+<body>
+    
+<!-- hexo-inject:begin --><!-- hexo-inject:end --><nav class="navbar is-transparent is-fixed-top navbar-main" role="navigation" aria-label="main navigation">
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item navbar-logo" href="/o/">
+                
+                <img src="/o/images/logo.png" alt="" height="28">
+                
+            </a>
+            <div class="navbar-burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        
+        <div class="navbar-menu navbar-start">
+            
+            <a class="navbar-item "
+               href="/o/archives">归档</a>
+            
+            <a class="navbar-item "
+               href="/o/about">关于</a>
+            
+        </div>
+        
+        <div class="navbar-menu navbar-end">
+            
+            <a class="navbar-item search" title="搜索" href="javascript:;">
+                <i class="fas fa-search"></i>
+            </a>
+            
+            
+            
+            <a class="navbar-item" title="GitHub" href="https://github.com/EPSON-LEE" target="_blank" rel="noopener">
+                
+                <i class="fab fa-github"></i>
+                
+            </a>
+               
+            
+        </div>
+    </div>
+</nav>
+
+    <section class="section section-heading">
+    <div class="container">
+        <div class="content">
+            <h5>#leetcode</h5>
+        </div>
+    </div>
+</section>
+<section class="section">
+    <div class="container">
+    
+        <article class="article content gallery" itemscope itemprop="blogPost">
+    <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
+        
+            <a href="/o/2020/06/13/leetcode/" itemprop="url">leetcode</a>
+        
+    </h1>
+    <div class="article-meta columns is-variable is-1 is-multiline is-mobile is-size-7-mobile">
+        <span class="column is-narrow">
+            <time datetime="2020-06-13T02:13:56.000Z" itemprop="datePublished">6月 13 2020</time>
+        </span>
+        
+        
+        <span class="column is-narrow">
+            
+            
+            5 分钟 读完 (约 692 字)
+        </span>
+        
+    </div>
+    <div class="article-entry is-size-6-mobile" itemprop="articleBody">
+    
+        <p>算法题一般都是有基本的模板和技巧在里面，按照 leetcode 的 tag 功能，从数据结构的角度分为 数组、链表、队列、二叉树、堆；</p>
+<p>从基础运用的角度来看分为、排序、查找；从算法思想来看又可以分为分治、贪心、回溯、递归；其中又会有一些代表性的算法、八皇后、最小子串。</p>
+<h2 id="链表数组题目："><a href="#链表数组题目：" class="headerlink" title="链表数组题目："></a>链表数组题目：</h2><h3 id="双指针"><a href="#双指针" class="headerlink" title="双指针"></a>双指针</h3><h3 id="快慢指针"><a href="#快慢指针" class="headerlink" title="快慢指针"></a>快慢指针</h3><p>例如：leetcode 19 数组类题目遇到针对某点旋转时 还需使用二分法进行排序</p>
+<p>例如：leetcode 35</p>
+<h3 id="优先队列"><a href="#优先队列" class="headerlink" title="优先队列"></a>优先队列</h3><p>例如：leetcode 23</p>
+<h3 id="分治算法"><a href="#分治算法" class="headerlink" title="分治算法"></a>分治算法</h3><p>例如：leetcode 23、21</p>
+<h3 id="最小堆"><a href="#最小堆" class="headerlink" title="最小堆"></a>最小堆</h3><p>例如：leetcode 23</p>
+<h3 id="分治"><a href="#分治" class="headerlink" title="分治"></a>分治</h3><p>分治的要素： 先解决局部 再合成一个整体。</p>
+<h3 id="回溯"><a href="#回溯" class="headerlink" title="回溯"></a>回溯</h3><h4 id="识别回溯"><a href="#识别回溯" class="headerlink" title="识别回溯"></a>识别回溯</h4><ol>
+<li>有没有解：Find a path to success</li>
+<li>求所有解：Find all paths to success 求所有解的个数 求所有解的具体信息</li>
+<li>求最优解：Find the best path to success</li>
+</ol>
+<p><figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">class Backtracking(object):</span><br><span class="line"></span><br><span class="line">    def backtracking(self, input):</span><br><span class="line"></span><br><span class="line">        self.res &#x3D; []</span><br><span class="line"></span><br><span class="line">        def dfs(input, temp, [index]):</span><br><span class="line">            # 边界</span><br><span class="line">            if 非法数据：</span><br><span class="line">                return</span><br><span class="line"></span><br><span class="line">            # 终止条件</span><br><span class="line">            if len(input) &#x3D;&#x3D; len(temp)：</span><br><span class="line">                self.res.append(temp[:])</span><br><span class="line">                return</span><br><span class="line"></span><br><span class="line">            # for循环</span><br><span class="line">            for i range(len(input)):</span><br><span class="line">                ##1. 修改path</span><br><span class="line">                temp.append(input[i])</span><br><span class="line">                ##2. backtracking</span><br><span class="line">                dfs(input, temp, [index])</span><br><span class="line">                ##3. 退回原来状态，恢复path</span><br><span class="line">                temp.pop()</span><br><span class="line">        # 执行</span><br><span class="line">        dfs(input, [], 0)</span><br><span class="line">        return self.res</span><br></pre></td></tr></table></figure></p>
+<h3 id="深度搜索与递归的区别"><a href="#深度搜索与递归的区别" class="headerlink" title="深度搜索与递归的区别"></a>深度搜索与递归的区别</h3><p>深度搜索经常用递归(recursion)来实现，二者常常同时出现。深度搜索，是逻辑意义上的算法，递归，是一种物理意义上的实现，它和迭代(iteration)是对应的。深度搜索，可以用递归来实现，也可以用栈来实现；而递归，一般总是用来实现深度搜索。可以说，递归一定是深度搜索，深度搜索不一定用递归。</p>
+<p>eg:</p>
+<p>leetcode 22：给定括号个数，给出所有可能</p>
+<p>leetcode 77：给定一个无重复元素的数组 candidates 和一个目标数 target ，找出 candidates 中所有可以使数字和为 target 的组合。</p>
+<p><figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">function generateParenthesis(n) &#123;</span><br><span class="line">  const res &#x3D; [];</span><br><span class="line"></span><br><span class="line">  function go(l, r, s) &#123;  &#x2F;&#x2F; l: left remaining, r: right remaining</span><br><span class="line">    if (l &gt; r) return;  &#x2F;&#x2F; The number of &#39;(&#39; should be always &gt;&#x3D; &#39;)&#39;</span><br><span class="line"></span><br><span class="line">    if (l &#x3D;&#x3D;&#x3D; 0 &amp;&amp; r &#x3D;&#x3D;&#x3D; 0) &#123;</span><br><span class="line">      res.push(s);</span><br><span class="line">      return;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    if (l &gt; 0) go(l - 1, r, s + &#39;(&#39;);</span><br><span class="line">    if (r &gt; 0) go(l, r - 1, s + &#39;)&#39;);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  go(n, n, &#39;&#39;);</span><br><span class="line">  return res;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>例如:</p>
+<p>全排列</p>
+<p>leetcode 21 (merge 2 sorted lists)</p>
+<p>leetcode 23 (merge K sorted lists)</p>
+<p>leetcode 203</p>
+<p><a href="https://www.zhihu.com/question/266403334/answer/698464437" target="_blank" rel="noopener">DFS 、动态规划、回溯法、递归之间的关系是什么？</a></p>
+<p><a href="https://www.cnblogs.com/mozi-song/p/9579418.html" target="_blank" rel="noopener">数组排列组合问题——BACKTRACKING</a></p>
+<h2 id="二叉树相关："><a href="#二叉树相关：" class="headerlink" title="二叉树相关："></a>二叉树相关：</h2><h3 id="求深度"><a href="#求深度" class="headerlink" title="求深度"></a>求深度</h3><h3 id="遍历"><a href="#遍历" class="headerlink" title="遍历"></a>遍历</h3><h4 id="递归"><a href="#递归" class="headerlink" title="递归"></a>递归</h4><ul>
+<li><p>前序</p>
+</li>
+<li><p>中序</p>
+</li>
+<li><p>后序</p>
+</li>
+</ul>
+<h4 id="非递归"><a href="#非递归" class="headerlink" title="非递归"></a>非递归</h4><h3 id="深度优先"><a href="#深度优先" class="headerlink" title="深度优先"></a>深度优先</h3><h3 id="广度优先"><a href="#广度优先" class="headerlink" title="广度优先"></a>广度优先</h3><h4 id="变种"><a href="#变种" class="headerlink" title="变种"></a>变种</h4><ul>
+<li>已知中序和后序求前序</li>
+</ul>
+<h3 id="翻转"><a href="#翻转" class="headerlink" title="翻转"></a>翻转</h3>
+    
+    </div>
+    
+    
+</article>
+
+
+
+
+    
+    
+    </div>
+</section>
+    <footer class="footer">
+    <div class="container">
+        <div class="columns content">
+            <div class="column is-narrow has-text-centered">
+                &copy; 2021 leejiahao&nbsp;
+                我所做的一切，不过是在取悦一个影子 </a>
+            </div>
+            <div class="column is-hidden-mobile"></div>
+
+            
+            <div class="column is-narrow">
+                <div class="columns is-mobile is-multiline is-centered">
+                
+                    
+                <a class="column is-narrow has-text-black" title="GitHub" href="https://github.com/EPSON-LEE" target="_blank" rel="noopener">
+                    
+                    GitHub
+                    
+                </a>
+                
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</footer>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
+
+<!-- test if the browser is outdated -->
+<div id="outdated">
+    <h6>Your browser is out-of-date!</h6>
+    <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/" target="_blank" rel="noopener">Update my browser now </a></p>
+    <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
+</div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.5/outdatedbrowser.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // plugin function, place inside DOM ready function
+        outdatedBrowser({
+            bgColor: '#f25648',
+            color: '#ffffff',
+            lowerThan: 'flex'
+        })
+    });
+</script>
+
+<script>
+    window.FontAwesomeConfig = {
+        searchPseudoElements: true
+    }
+    moment.locale("zh-CN");
+</script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script>
+    MathJax.Hub.Config({
+        "HTML-CSS": {
+            matchFontHeight: false
+        },
+        SVG: {
+            matchFontHeight: false
+        },
+        CommonHTML: {
+            matchFontHeight: false
+        },
+        tex2jax: {
+            inlineMath: [
+                ['$','$'],
+                ['\\(','\\)']
+            ]
+        }
+    });
+</script>
+
+    
+    
+    
+    
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.8/js/lightgallery-all.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.6.5/js/jquery.justifiedGallery.min.js"></script>
+<script>
+    (function ($) {
+        $(document).ready(function () {
+            if (typeof($.fn.lightGallery) === 'function') {
+                $('.article.gallery').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof($.fn.justifiedGallery) === 'function') {
+                $('.justified-gallery').justifiedGallery();
+            }
+        });
+    })(jQuery);
+</script>
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
+    <style>
+        .hljs {
+            position: relative;
+        }
+
+        .hljs .clipboard-btn {
+            float: right;
+            color: #9a9a9a;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .hljs .clipboard-btn:hover {
+          color: #8a8a8a;
+        }
+
+        .hljs > .clipboard-btn {
+            display: none;
+            position: absolute;
+            right: 4px;
+            top: 4px;
+        }
+
+        .hljs:hover > .clipboard-btn {
+            display: inline;
+        }
+
+        .hljs > figcaption > .clipboard-btn {
+            margin-right: 4px;
+        }
+    </style>
+    <script>
+      $(document).ready(function () {
+        $('figure.hljs').each(function(i, figure) {
+          var codeId = 'code-' + i;
+          var code = figure.querySelector('.code');
+          var copyButton = $('<button>Copy <i class="far fa-clipboard"></i></button>');
+          code.id = codeId;
+          copyButton.addClass('clipboard-btn');
+          copyButton.attr('data-clipboard-target-id', codeId);
+
+          var figcaption = figure.querySelector('figcaption');
+
+          if (figcaption) {
+            figcaption.append(copyButton[0]);
+          } else {
+            figure.prepend(copyButton[0]);
+          }
+        })
+
+        var clipboard = new ClipboardJS('.clipboard-btn', {
+          target: function(trigger) {
+            return document.getElementById(trigger.getAttribute('data-clipboard-target-id'));
+          }
+        });
+        clipboard.on('success', function(e) {
+          e.clearSelection();
+        })
+      })
+    </script>
+
+    
+    
+
+    
+
+
+
+<script src="/o/js/script.js"></script>
+
+
+    
+    <div class="searchbox ins-search">
+    <div class="searchbox-mask"></div>
+    <div class="searchbox-container ins-search-container">
+        <div class="searchbox-input-wrapper">
+            <input type="text" class="searchbox-input ins-search-input" placeholder="站内搜索" />
+            <span class="searchbox-close ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="searchbox-result-wrapper ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: '文章',
+                PAGES: '页面',
+                CATEGORIES: '分类',
+                TAGS: '标签',
+                UNTITLED: '(无标题)',
+            },
+            CONTENT_URL: '/o/content.json',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+
+<script src="/o/js/insight.js"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+
+    
+</body>
+</html>
